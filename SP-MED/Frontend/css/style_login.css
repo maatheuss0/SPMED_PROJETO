@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
 .container {
     width: 1200px;
@@ -25,8 +25,30 @@ header {
     margin-top: 1%;
 }
 
-.login {
+header {
     color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 60px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 50px;
+}
+
+
+/*Tela login*/
+
+
+.principal {
+    margin: 120px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/*Footer*/
+
+footer {
+    background-color: #8DC9BE;
+    height: 40px;
 }
