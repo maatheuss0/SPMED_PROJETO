@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*header*/
+
+header {
+    background-color: #8DC9BE;
+    height: 140px;
+    display: flex;
+    align-items: center;
+}
