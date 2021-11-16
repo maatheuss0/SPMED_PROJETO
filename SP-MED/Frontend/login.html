@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt_br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="shortcut icon" href="assets/img/logoo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style_login.css">
 </head>
+
 <body>
 
     <header>
@@ -20,25 +22,32 @@
             <div>
                 <form class="formulario">
                     <h1 class="faça_login">Faça login com seus dados</h1>
-                    <div>
+                    <div class="formulario_e_s">
                         <input class="caixa_texto" type="" id="" name="" value="" placeholder="Nome de usuário "><br>
+                        <input class="caixa_texto" type="password" id="senha" name="senha" value=""
+                            placeholder="Senha"><br><br>
                     </div>
-                    <div>
-                        <input class="caixa_texto" type="password" id="senha" name="senha" value="" placeholder="Senha"><br><br>
-                    </div>
-                    <div>
-                        <label for="Senha">Lembre-se de mim</label>
+                    <div class="lembre">
+                        <label for="Senha">Mantenha-me conectado</label>
                         <button></button>
                     </div>
-                    <button type="submit">Entre</button>
-                    <label for="Cadastrar">Não possui conta?</label>
-                    <button type="submit">Cadastrar</button>
-                    <div>
+                    <div class="cadastrar">
+                        <button type="submit">Entre</button>
+                        <label for="Cadastrar">Não possui conta?</label>
+                        <button type="submit">Cadastrar</button>
+                    </div>
+                    <div class="ou">
+                        <hr>
                         <h1 class="opçoes_cadastro">ou</h1>
+                        <hr>
+                    </div>
+                    <div class="opcoes_acesso">
                         <label class="opçoes_cadastro" for="Cadastrar">Você pode acessar sua conta utlizando</label>
                         <div class="imagem">
-                            <input type=image src="./assets/img/sinal_mais.png" width="130px" height="130px"> 
-                            <input type=image src="./assets/img/sinal_google.png" width="90px" height="90px"> 
+                            <input class="imagem1" type=image src="./assets/img/sinal_mais.png" width="130px"
+                                height="130px">
+                            <input class="imagem2" type=image src="./assets/img/sinal_google.png" width="90px"
+                                height="90px">
                         </div>
                     </div>
                 </form>
@@ -50,4 +59,5 @@
     </footer>
 
 </body>
+
 </html>
