@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +16,7 @@
 /*header*/
 
 header {
-    background-color: #8DC9BE;
+    background-color: #b081d6f5;
     height: 140px;
     display: flex;
     align-items: center;
@@ -53,4 +54,88 @@ header {
 
 .container_header span {
     color: #ffffffad;
+}
+
+/*Contéudo*/
+
+.comeco {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.comeco button {
+    height: 50px;
+    width: 180px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #b081d6f5;
+    border: none;
+    border-radius: 30px; 
+    margin-top: 30px;
+}
+
+.comeco h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.comeco h1 {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.comeco h2 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.introducao {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.comeco2 {
+    background-color: #f1f1f145;
+    margin-top: 50px;
+}
+
+.texto {
+    color: #f1f1f145;
+}
+
+.cards_geral {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 220px;
+    margin-bottom: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px; 
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.272);
+    height: 250px;
+    width: 250px;
+}
+
+.cards input {
+    margin-top: 15px;
+}
+
+.pfc {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 40px;
+    color: rgb(0, 0, 0); text-shadow: rgba(111, 111, 111, 0.585) 0.1em 0.1em 0.2em
+}
+
+/*Footer*/
+
+footer {
+    background-color: #b081d68d;
+    height: 40px;
 }

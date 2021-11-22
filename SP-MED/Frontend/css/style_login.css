@@ -14,7 +14,7 @@
 /*header*/
 
 header {
-    background-color: #8DC9BE;
+    background-color:  #b081d6f5;
     height: 140px;
     display: flex;
     align-items: center;
@@ -106,7 +106,7 @@ header {
     width: 180px;
     font-size: 20px;
     color: #ffffff;
-    background-color: #8DC9BE;
+    background-color: #b081d6f5;
     border: none;
     border-radius: 48px;    
 }
@@ -138,6 +138,6 @@ header {
 /*Footer*/
 
 footer {
-    background-color: #8DC9BE;
+    background-color: #b081d68d;
     height: 40px;
 }
