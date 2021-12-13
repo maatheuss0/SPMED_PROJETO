@@ -1,16 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Route, BrowserRouter as Router, Redirect, Switch } from 'react-router-dom'
+
 import './index.css';
 
 import home from './pages/home/App';
-import consultas from './pages/consultas/consultas';
+import consultas from './pages/consultas/consultas'
+import notFound from './pages/notFound/notFound';
+import login from './pages/login/login';
 
 import reportWebVitals from './reportWebVitals';
 
+const routing = (
+  <Router>
+    <div>
+      <Switch>
+        <Route exact path="/" component={home}  /> {/* Home */ }
+        <Route path="/consultas" component={consultas} /> {/* Consultas */ }
+        <Route path="/notFound" component={notFound} /> {/* notFoynd */ }
+        <Route path="/login" component={login} /> {/* login */ }
+        <Redirect to="/notFound"  /> {/* Redirencina para Not Found caso não encontre nenhuma rota */}
+      </Switch>
+    </div>
+  </Router>
+)
+
 ReactDOM.render(
-  <React.StrictMode>
-    <home />
-  </React.StrictMode>,
+  routing,
   document.getElementById('root')
 );
 

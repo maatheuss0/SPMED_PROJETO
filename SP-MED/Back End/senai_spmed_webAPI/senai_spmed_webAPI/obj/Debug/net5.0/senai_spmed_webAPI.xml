@@ -173,19 +173,6 @@
             <param name="idPaciente">Id do paciente a ser buscado</param>
             <returns>Status code 204 no content</returns>
         </member>
-        <member name="M:senai_spmed_webAPI.Controllers.PerfisController.postDir(Microsoft.AspNetCore.Http.IFormFile)">
-            <summary>
-            Salva uma foto no perfil
-            </summary>
-            <param name="arquivo">Arquivo com a foto a ser postada</param>
-            <returns>Status code Ok</returns>
-        </member>
-        <member name="M:senai_spmed_webAPI.Controllers.PerfisController.getDir">
-            <summary>
-            Pega uma foto salva 
-            </summary>
-            <returns>Uma base64 de uma foto salva</returns>
-        </member>
         <member name="M:senai_spmed_webAPI.Controllers.UsuariosController.ListarTodos">
             <summary>
             Lista todos os usuarios

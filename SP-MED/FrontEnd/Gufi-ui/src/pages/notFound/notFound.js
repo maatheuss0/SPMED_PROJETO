@@ -1,13 +1,11 @@
-import './App.css';
-
-function App() {
+function notFound() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>dasds</h1>
+            <h1>404 Página não encontrada</h1>
       </header>
     </div>
   );
 }
 
-export default App;
+export default notFound;
